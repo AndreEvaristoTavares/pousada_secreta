@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1080px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    width: 300px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    font-size: 20px;
+    color:#01bf8c;
+    font-weight: bold;
+}
+header h1{
+    margin-left: 20px;
+    color: black;
+}
+header a h1 span{
+    color: #01bf8c;
+}
+#bannerHome{
+    width: 100%;
+    height: 720px;
+    background-image: url('./img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bannerQuartos{
+    width: 100%;
+    height: 420px;
+    background-image: url('./img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bannerHome div{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #01bf8c87;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 40%;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.descricoes{
+    margin-top: 100px;    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.descricoes h3, .descricoes p{
+    line-height: 40px;
+
+}
+main section{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.solteiro, .casal, .familia, #quartosInicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main section figure, main #quartosInicio figure {
+    width: 20%;
+    min-width: 350px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.infoQuartos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.infoQuartos ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infoQuartos ul li{
+    margin: 0 20px;
+    line-height: 40px;
+}
+main section figure img, main #quartosInicio figure img{
+    width: 100%;
+    height: 200px;
+}
+main iframe{
+    width: 100%;
+    height: 400px;
+    margin: 0 0 100px 0;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #01bf8c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer a{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+footer a img{
+    width: 30px;
+    margin-right: 5px;
+    
+}
+#todosQuartos{
+    color: #01bf8c;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}

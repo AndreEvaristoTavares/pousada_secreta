@@ -1,0 +1,39 @@
+@media(max-width:1024px){
+    #bannerHome div h1{
+        font-size: 20px;
+    }
+    #bannerHome div h2{
+        font-size: 15px;
+    }
+
+}
+@media(max-width:720px){
+    header a h1{
+        font-size: 20px;
+    }
+    header nav{
+        visibility: hidden;
+    }
+    header h1{
+        width: 100%;
+    }
+    #bannerHome div{
+        visibility: hidden;
+    }
+    .infoQuartos ul{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .infoQuartos ul li{
+        margin: 0 20px;
+        line-height: 40px;
+    }
+    footer{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
